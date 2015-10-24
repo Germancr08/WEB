@@ -1,0 +1,224 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  font-weight: 400;
+  font-family: 'Varela Round', sans-serif;
+}
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover {
+  text-decoration: none;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  box-shadow: 0 0 0 transparent !important;
+  background-image: none !important;
+  border-radius: 0 !important;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 100;
+}
+.navbar-brand {
+  padding: 0;
+  padding-left: 20px;
+  padding-top: 5px;
+  width: 300px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+h1 {
+  font-size: 60px;
+}
+.benefits {
+  background: url(../images/doc.jpg);
+  height: 85vh;
+  padding-top: 4%;
+}
+.benefits-item {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+.benefits-item h1 {
+  font-size: 90px;
+}
+.benefits-item .btn {
+  background-image: none;
+  background-color: #019444;
+  color: #FFF;
+  border: 0;
+  padding-left: 0;
+  padding-right: 3px;
+  font-size: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  font-weight: 100;
+}
+.benefits-item .btn span {
+  background-image: none;
+  background-color: #017F37;
+  color: #FFF;
+  border: 0;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 6px;
+  font-size: 22px;
+}
+.recipes {
+  background: url(../images/receipts.jpg);
+  height: 85vh;
+  padding-top: 3%;
+}
+.recipes-item {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.recipes-item h1 {
+  font-size: 122px;
+}
+.recipes-item .btn {
+   background-image: none;
+  background-color: #019444;
+  color: #FFF;
+  border: 0;
+  padding-left: 0;
+  padding-right: 3px;
+  font-size: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  font-weight: 100;
+}
+.buy {
+  background: url(../images/buy.jpg);
+  height: 85vh;
+  padding-top: 3%;
+}
+.buy-item {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+.buy-item h1 {
+  font-size: 122px;
+}
+.buy-item .btn {
+  background-image: none;
+  background-color: #019444;
+  color: #FFF;
+  border: 0;
+  padding-left: 0;
+  padding-right: 30px;
+  font-size: 29px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  font-weight: 10;
+  margin-top: 40%;
+}
+.buy-item .btn span {
+  background-image: none;
+  background-color: #017F37;
+  color: #FFF;
+  border: 0;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 6px;
+  font-size: 22px;
+}
+.buy-item .btn span .glyphicon {
+  padding: 0;
+  padding-left: 11px;
+  padding-right: 0px;
+  margin-right: 10px;
+}
+.buy-item img {
+  padding-top: 15px;
+}
+.cart {
+  padding-top: 20%;
+}
+.cart h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.cart-item {
+  text-align: justify;
+  font-size: 22px;
+  line-height: 25px;
+}
+.cart-item h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.cart-item span {
+  font-size: 20px;
+}
+.cart-item input {
+  width: 30px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+.cart .btn {
+  background-image: none;
+  background-color: #019444;
+  color: #FFF;
+  border: 0;
+  padding-left: 0;
+  padding-right: 30px;
+  font-size: 29px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 0;
+  font-weight: 100;
+  margin-top: 20px;
+}
+.cart .btn span {
+  background-image: none;
+  background-color: #017F37;
+  color: #FFF;
+  border: 0;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 10px;
+  margin-right: 20px;
+  padding-bottom: 6px;
+  font-size: 22px;
+}
+.cart .btn span .glyphicon {
+  padding: 0;
+  padding-left: 11px;
+  padding-right: 0px;
+  margin-right: 10px;
+}
+.payment {
+  border-left: 3px solid black;
+  font-size: 20px;
+}
+
+.h2, h2 {
+    font-size: 24px !important;
+}
+
+.benefits-item h1 {
+    font-size: 70px;
+    text-align: top !important;
+    padding-right: 10px !important;
+}
