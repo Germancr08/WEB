@@ -1,0 +1,40 @@
+html { 
+  background: url(../images/boobs.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+p {
+	    position: relative;
+	    width: 400px;
+	    height: 90px;
+	    font-family: 'Bitter', serif;
+	    color: white;
+	    text-align: center;
+	    font-size: 50px;
+
+	  }
+
+	  div {
+	    position: absolute;
+	    width: 1440px;
+	    height: 400px;
+	    font-size: 36px;
+	    text-align: center;
+	    color: yellow;
+	    background: red;
+	    padding-top:400px;
+	    top: 0;
+	    left: 0;
+	    display: none;
+	      -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: co
+	  }
+
+	  span {
+	    display: none;
+	  }

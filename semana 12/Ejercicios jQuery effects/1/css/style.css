@@ -1,0 +1,20 @@
+div {
+
+  position:absolute;
+
+  left: 50px;
+  width: 290px;
+  height: 290px;
+  margin: 5px;
+ 
+}
+
+body {
+
+	background-color: #ff6666;
+	font-color:white;
+	text-align: center;
+	font-family: 'Bitter', serif;
+	color: white;
+}
+
