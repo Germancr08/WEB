@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+        html, body{height:100%;}
+
+body {
+font-size: 20px;
+text-align: center;
+margin-top: 50px;
+font-family: verdana;
+background: url(images/1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+    #modal {
+                position:absolute;
+                background:black;
+                padding:8px;
+            }
+
+            #content {
+                background:white;
+                padding:20px;
+            }
+
+     #close {
+                position:absolute;
+                background:url(close.png);
+                width:24px;
+                height:27px;
+                top:-7px;
+                right:-7px;
+            }
+
+       </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">//no se para que sirve</script> 
+        <script>
+            var modal = (function(){
+                $modal = $('<div id="modal"></div>');
+                $content = $('<div id="content"></div>');
+                $close = $('<a id="close" href="#"></a>');
+
+                $modal.hide();
+                $modal.append($content, $close);
+
+                $(document).ready(function(){
+                    $('body').append($modal);                       
+                });
+
+                $close.click(function(e){
+                    e.preventDefault();
+                    $modal.hide();
+                    $content.empty();
+                });
+                // abre el modal
+                return function (content) {
+                    $content.html(content);
+                    // centra el modal
+                    $modal.css({
+                        top: ($(window).height() - $modal.outerHeight()) / 2, 
+                        left: ($(window).width() - $modal.outerWidth()) / 2
+                    });
+                    $modal.show();
+                };
+            }());
+
+            $(document).ready(function(){
+                $('a#popup').click(function(e){
+                    modal("<p>Learn more at: http://tinyurl.com/zf5r72b</p>");
+                    e.preventDefault();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <a id='popup' href='#'>What's this?</a>
+    </body>
+</html>
