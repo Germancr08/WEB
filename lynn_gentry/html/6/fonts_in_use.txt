@@ -1,0 +1,35 @@
+
+Fonts actively used in this project
+-----------------------------------
+
+Font name       :   Lato
+Font provider   :   google
+
+
+
+******************************************************************************Font name       :   Six Caps
+Font provider   :   google
+
+
+
+******************************************************************************Font name       :   Cutive Mono
+Font provider   :   google
+
+
+
+******************************************************************************Font name       :   Alex Brush
+Font provider   :   google
+
+
+
+******************************************************************************Font name       :   Just Another Hand
+Font provider   :   google
+
+
+
+******************************************************************************
+
+
+
+
+Created by Typecast on 2016/02/23.

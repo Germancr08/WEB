@@ -1,0 +1,25 @@
+
+Fonts actively used in this project
+-----------------------------------
+
+Font name       :   Lato
+Font provider   :   google
+
+
+
+******************************************************************************Font name       :   Ultra
+Font provider   :   google
+
+
+
+******************************************************************************Font name       :   Slabo 13px
+Font provider   :   google
+
+
+
+******************************************************************************
+
+
+
+
+Created by Typecast on 2016/02/23.
